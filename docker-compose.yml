@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    jupyter:
+        image: jupyter/datascience-notebook:latest
+        user: root
+        ports:
+            - "8102:8888"
+        environment:
+            - GRANT_SUDO=yes
+            - JUPYTER_ENABLE_LAB=yes
+        volumes: 
+            - $PWD:/home/jovyan/work
+        command: start-notebook.sh --NotebookApp.token='' --NotebookApp.notebook_dir='/home/jovyan/work'
