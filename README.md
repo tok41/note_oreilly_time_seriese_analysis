@@ -22,19 +22,19 @@
 本リポジトリをclone
 
 ```bash
-$ git clone {URL}
-$ cd note_oreilly_time_seriese_analysis
+git clone {URL}
+cd note_oreilly_time_seriese_analysis
 ```
 
 dockerコンテナを構築
 
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 ブラウザから以下のURLにアクセスしてjupyter labが起動することを確認。
 起動しない場合はログを確認。
 
-http://localhost:8102
+`http://localhost:8102`
 
 接続ポートは`docker-compose.yml`で環境に合わせて設定する（空きポートを指定する）。
