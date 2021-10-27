@@ -38,3 +38,12 @@ docker-compose up -d
 `http://localhost:8102`
 
 接続ポートは`docker-compose.yml`で環境に合わせて設定する（空きポートを指定する）。
+
+## 参考情報
+
+- [サポートGithubリポジトリ](https://github.com/PracticalTimeSeriesAnalysis/BookRepo)
+  - 書籍内のコード、データ
+- [O'REILLEYのページ](https://www.oreilly.com/library/view/practical-time-series/9781492041641/)
+  - 正誤表、Githubリポジトリへのリンク
+- [O'REILLEY(日本語)](https://www.oreilly.co.jp/books/9784873119601/)
+  - 正誤表が掲載される？英語版の方が良い。
